@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-lazy-load",
+  "version": "0.0.0",
+  "description": "Nuxt Lazy Load",
+  "license": "MIT",
+  "author": "Dario Ferderber <dario.ferderber@broj42.com>",
+  "keywords": [
+    "nuxt lazy load",
+    "image lazy load",
+    "video lazy load",
+    "lazy load directive",
+    "lazy load module"
+  ],
+  "main": "lib/module.js",
+  "repository": "https://gitlab.com/broj42/nuxt-lazy-load",
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintIgnore": [
+    "*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "string-replace-loader": "^2.1.1",
+    "intersection-observer": "^0.7.0"
+  }
+}
