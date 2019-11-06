@@ -51,7 +51,7 @@ If your content (**html**) is changing **dynamically** and you use **v-html** yo
 ```javascript
 modules: [
   ['nuxt-lazy-load', {
-    // This are default values
+    // These are the default values
     images: true,
     videos: true,
     audios: true,
