@@ -56,8 +56,11 @@ modules: [
     videos: true,
     audios: true,
     directiveOnly: false,
+
+    // To remove class set value to false
     loadedClass: 'isLoaded',
     appendClass: 'lazyLoad',
+    
     observerConfig: {
       rootMargin: '50px 0px 50px 0px',
       threshold: 0
