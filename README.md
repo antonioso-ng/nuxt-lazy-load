@@ -1,6 +1,7 @@
 # nuxt-lazy-load
-| npm install nuxt-lazy-load | yarn add nuxt-lazy-load |
-|--|--|
+```bash
+npm i nuxt-lazy-load
+```
 
 ## 👉 Description
 You don't need to bother with extra attributes on elements (like **data-src**), just add the **module** in **nuxt.config.js** and that's it 😊
