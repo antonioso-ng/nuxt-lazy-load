@@ -15,7 +15,7 @@ modules: [
 // or
 modules: [
   ['nuxt-lazy-load', {
-    directiveOnly: false
+    // Your options
   }]
 ]
 ```
