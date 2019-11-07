@@ -21,7 +21,7 @@ modules: [
 ```
 
 #### directiveOnly
-If you don't want to use lazy load on every image/video/audio, set **directiveOnly** to **true** and use directive like this (with data-src/data-srcset/data-poster)
+If you don't want to use lazy load on every image/video/audio/iframe, set **directiveOnly** to **true** and use directive like this (with data-src/data-srcset/data-poster)
 ```html
 <img data-src="image.png" alt="" title="" v-lazy-load>
 ```
@@ -32,10 +32,10 @@ You don't need to add directive (**v-lazy-load**) on source elements
 </video>
 ```
 
-#### data-no-lazy
-If you don't want to lazy load single element, just add **data-no-lazy** attribute
+#### data-not-lazy
+If you don't want to lazy load single element, just add **data-not-lazy** attribute
 ```html
-<audio controls="controls" data-no-lazy>
+<audio controls="controls" data-not-lazy>
   <source type="audio/mpeg" src="audio.mp3">
 </audio>
 ```
@@ -55,6 +55,7 @@ modules: [
     images: true,
     videos: true,
     audios: true,
+    iframes: true,
     directiveOnly: false,
 
     // To remove class set value to false
