@@ -56,7 +56,11 @@ modules: [
     videos: true,
     audios: true,
     iframes: true,
+    polyfill: true,
     directiveOnly: false,
+    
+    // Default image must be in the static folder
+    defaultImage: '/images/default-image.jpg',
 
     // To remove class set value to false
     loadedClass: 'isLoaded',
