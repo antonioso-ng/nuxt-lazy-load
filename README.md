@@ -20,6 +20,14 @@ modules: [
 ]
 ```
 
+#### background image
+**lazy-background** attribute
+```html
+<div lazy-background="~/assets/images/background-image.jpg">
+  Content
+</div>
+```
+
 #### directiveOnly
 If you don't want to use lazy load on every image/video/audio/iframe, set **directiveOnly** to **true** and use directive like this (with data-src/data-srcset/data-poster)
 ```html
