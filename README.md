@@ -40,6 +40,26 @@ You don't need to add directive (**v-lazy-load**) on source elements
 </video>
 ```
 
+#### $lazyLoad
+**$lazyLoad** is injected, so you can use it everywhere, you just need to pass an element you want to lazy load. (see **data-manual-lazy**)
+
+#### data-manual-lazy
+If you want to load image/video/audio/iframe only on hover or some other event you can use **data-manual-lazy**
+```html
+<div class="imageWrapper" @mouseenter="lazyLoadImage">
+  <img src="image.png" alt="" title="" data-manual-lazy>
+  <img src="second-image.png" alt="" title="" data-manual-lazy>
+</div>
+```
+```javascript
+methods: {
+  lazyLoadImage(e){
+    let media = e.target.querySelectorAll('[data-manual-lazy]');
+    [...media].forEach(m => this.$lazyLoad(m))
+  }
+}
+```
+
 #### data-not-lazy
 If you don't want to lazy load single element, just add **data-not-lazy** attribute
 ```html
