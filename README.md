@@ -4,7 +4,7 @@ npm i nuxt-lazy-load
 ```
 
 ## 👉 Description
-You don't need to bother with extra attributes on elements (like **data-src**, only if you want to lazy load background-image), just add the **module** in **nuxt.config.js** and that's it + it's **SEO friendly** 😊
+You don't need to bother with extra attributes on elements (like **data-src**, only if you want to lazy load background-image), just add the **module** in **nuxt.config.js** and that's it 😊
 
 ## 🚀 Usage
 ```javascript
