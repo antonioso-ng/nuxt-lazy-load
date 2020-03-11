@@ -108,8 +108,6 @@ modules: [
     appendClass: 'lazyLoad',
     
     observerConfig: {
-      rootMargin: '50px 0px 50px 0px',
-      threshold: 0
       // See IntersectionObserver documentation
     }
   }]
