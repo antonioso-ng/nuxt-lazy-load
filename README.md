@@ -6,6 +6,9 @@ npm i nuxt-lazy-load
 ## 👉 Description
 You don't need to bother with extra attributes on elements (like **data-src**, only if you want to lazy load background-image), just add the **module** in **nuxt.config.js** and that's it 😊
 
+### Buy me a coffee
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F31MWWL)
+
 ## 🚀 Usage
 ```javascript
 // nuxt.config.js
@@ -104,6 +107,7 @@ modules: [
     defaultImage: '/images/default-image.jpg',
 
     // To remove class set value to false
+    loadingClass: 'isLoading',
     loadedClass: 'isLoaded',
     appendClass: 'lazyLoad',
     
