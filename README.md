@@ -23,6 +23,9 @@ modules: [
 ]
 ```
 
+### 📝 Updates
+- **1.2.2** - Native lazy load (Support: https://caniuse.com/#feat=loading-lazy-attr)
+
 #### background image
 **lazy-background** attribute
 ```html
@@ -100,6 +103,7 @@ modules: [
     videos: true,
     audios: true,
     iframes: true,
+    native: false,
     polyfill: true,
     directiveOnly: false,
     
