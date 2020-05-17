@@ -24,10 +24,6 @@ modules: [
 ```
 
 ### 📝 Updates
-<<<<<<< HEAD
-- **1.2.3** - Audio tag fixes
-=======
->>>>>>> 01bb2e95391ecf4302878330e6d04c3a0289b6da
 - **1.2.2** - Native lazy load (Support: https://caniuse.com/#feat=loading-lazy-attr)
 
 #### background image
