@@ -24,6 +24,7 @@ modules: [
 ```
 
 ### 📝 Updates
+- **1.2.3** - Audio tag fixes
 - **1.2.2** - Native lazy load (Support: https://caniuse.com/#feat=loading-lazy-attr)
 
 #### background image
