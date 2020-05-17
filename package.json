@@ -1,6 +1,10 @@
 {
   "name": "nuxt-lazy-load",
+<<<<<<< HEAD
   "version": "1.2.3",
+=======
+  "version": "1.2.1",
+>>>>>>> 01bb2e95391ecf4302878330e6d04c3a0289b6da
   "description": "Nuxt Lazy Load",
   "license": "MIT",
   "author": "Dario Ferderber <dario.ferderber@broj42.com>",
